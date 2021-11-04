@@ -1,0 +1,49 @@
+header{
+    background-color: var(--light-yellow);
+    height: 20vh;
+    width:100vw;
+    position:fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+nav{
+    display: flex;
+    line-height: 8rem;
+}       
+
+nav .button{
+    padding:30px;
+    font-size: 1.6rem;
+}       
+
+header .logo img{
+    height:100%;
+}
+
+header .phone-num{
+    width:15%;
+
+    
+}
+
+.phone-num .phone-button{
+    background-color: var(--second-green);
+    height:30%;
+    margin-left: 10%;
+    margin-top: 30%;
+
+    TODO: to change the way i located the phone-button in the y-axis;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: var(--light-yellow);
+    text-align: center;
+    padding-top: 5%;
+    TODO: to change the way i located the phone-number in the y-axis;
+    
+}
+

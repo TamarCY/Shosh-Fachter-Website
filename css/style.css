@@ -1,0 +1,44 @@
+/*utilities*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+} 
+
+
+  body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+   
+    --main-green: #81B622;
+    --second-green: #3D550C;
+    --light-yellow: #fcffde;
+    --header-height:20vh;
+    /* background-color: var(--main-green); */
+    overflow: hidden;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:var(--main-green)
+}
+
+ul{
+ list-style: none;
+}
+
+
+
+
+
+.container{
+    position: relative;
+}
+
+/* TODO:find a more elegant way to deal  with the fixed header */
+.header-fixer{
+    height: var(--header-height);
+}

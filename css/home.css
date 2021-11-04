@@ -1,0 +1,10 @@
+.page-1{
+    padding-top: var(--top-spacing) auto;
+
+    background-color: var(--main-green);
+    height: 100vh;
+    
+    TODO:why is the bg img not working;
+    /* background-image: url('../assets/home-bg.jpeg') no-repeat center center/cover; */
+
+}
