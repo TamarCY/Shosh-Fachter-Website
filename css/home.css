@@ -1,10 +1,38 @@
 .page-1{
-    padding-top: var(--top-spacing) auto;
+   
 
     background-color: var(--main-green);
     height: 100vh;
     
-    TODO:why is the bg img not working;
-    /* background-image: url('../assets/home-bg.jpeg') no-repeat center center/cover; */
+    
 
+    /* background-image: url('../assets/home-bg.jpeg') no-repeat center center/cover; */
+}
+ .page-1 section{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.profile-photo{
+    border: var(--light-yellow), solid, 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: url(/Shosh-Fachter-Website/assets/profile-img.jpeg) no-repeat center center/cover;
+}
+
+.page-1 h1{
+    font-size: 3.5rem;
+    padding: 10px;
+    
+}
+
+.page-1 h1, h2{
+    color:var(--second-green);
+    text-shadow: whitesmoke;
 }
