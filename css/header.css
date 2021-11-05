@@ -51,28 +51,3 @@ header .phone-num{
     
 }
 
-@media only screen and (max-width:1000px){
-
-    .phone-num {
-        display:none;
-    }
-    nav{
-        flex-direction: column;
-        width:100%;
-        text-align: center;
-    }
-
-    nav a{
-        font-size: 1rem;
-
-    }
-
-    nav .button{
-        
-        padding: 10px;
-        background-color: var(--third-color);
-    }
-
-    
-}
-TODO: change the max-screen size to 560;
