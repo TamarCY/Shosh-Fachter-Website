@@ -10,13 +10,10 @@
     direction: rtl;
     text-align: right;
     font-family: 'Rubik', sans-serif;
-   
     --primery: #3e6913;
     --temp-primery-color:#81B622;
     --temp-secendary: #5f7c24;
-    --secendary: #3D550C;
-
-    
+    --secendary: #3D550C; 
     --third-color: #f9fafc;
     --temp-third-color:#fcffde;
     --header-height:20vh;

@@ -7,6 +7,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    
 }
 
 nav{
@@ -48,6 +49,17 @@ header .phone-num{
     text-align: center;
     padding-top: 5%;
     TODO: to change the way i located the phone-number in the y-axis;
-    
+    transition: opacity 1s ease-in-out;
+}
+.phone-num .phone-button:hover{
+    opacity: 0.7;
 }
 
+.hamburger-div{
+    display: none;
+}
+
+
+TODO:hover phone botton and header bottons animations;
+
+TODO:find where the f#@#@# the white line under the header is from and kill it;

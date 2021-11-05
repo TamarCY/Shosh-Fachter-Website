@@ -1,4 +1,4 @@
-@media only screen and (max-width:1500px){
+@media only screen and (max-width:700px){
 
     .phone-num {
         display:none;
@@ -8,15 +8,16 @@
         width:100%;
         text-align: center;
         position: relative;
+        margin-top: 50px;
     }
 
     nav a{
-        font-size: 1rem;
+        font-size: 1.2rem;
 
     }
 
     nav .button{  
-        padding: 10px;
+        padding: 15px;
         background-color: var(--third-color);
     }
 
@@ -33,5 +34,31 @@
 
     .page-1::before{
         display: none;
+    }   
+
+    header .logo{
+        position:fixed;
+        top: 10px;
+        right: 10px;
+        height: 100px;
+    }
+
+     header .toggler{
+        position :absolute;
+        height: 50px;
+        width: 50px;
+        top:20px;
+        left: 20px;
+        z-index:100;
+        cursor: pointer;
+        opacity: 0;
+    }
+
+    .hamburger-div{
+        display: block;
+    }
+
+
+
 }
 TODO: change the max-screen size to 560;
