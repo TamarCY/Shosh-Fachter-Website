@@ -15,9 +15,11 @@ nav{
 }       
 
 nav .button{
+    /* TODO - find out how to give font weight of 350 */
+    font-weight: 300;
     padding:30px;
-    font-size: 1.6rem;
-}       
+    font-size: 1.3rem;
+}      
 
 header .logo img{
     height:100%;
@@ -47,3 +49,9 @@ header .phone-num{
     
 }
 
+@media only screen and (max-width:1000px){
+    .phone-num {
+        display:none;
+    }
+}
+TODO: change the max-screen size to 560;

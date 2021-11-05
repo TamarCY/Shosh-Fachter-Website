@@ -11,9 +11,14 @@
     text-align: right;
     font-family: 'Rubik', sans-serif;
    
-    --primery: #81B622;
+    --primery: #3e6913;
+    --temp-primery-color:#81B622;
+    --temp-secendary: #5f7c24;
     --secendary: #3D550C;
-    --third-color: #fcffde;
+
+    
+    --third-color: #f9fafc;
+    --temp-third-color:#fcffde;
     --header-height:20vh;
     /* background-color: var(--primery); */
     overflow: hidden;
