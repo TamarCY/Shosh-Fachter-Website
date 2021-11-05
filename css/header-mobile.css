@@ -3,17 +3,33 @@
     .phone-num {
         display:none;
     }
-    nav{
+
+    /* Show nav */
+    .hamburger-div .toggler:checked ~ .nav-bar{ 
+        visibility: visible;
+
+    }
+
+
+
+    .nav-bar{
         flex-direction: column;
         width:100%;
         text-align: center;
         position: relative;
         margin-top: 50px;
+        /* visibility: hidden; */
+        
+        
     }
 
     nav a{
         font-size: 1.2rem;
+        
+    }
 
+    nav a:hover{
+        color:var(--primery);
     }
 
     nav .button{  
@@ -21,16 +37,7 @@
         background-color: var(--third-color);
     }
 
-    /* nav::before{
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top:0px;
-        left:0px;
-        right: 0px;
-        bottom: 0px;
-    } */
+    
 
     .page-1::before{
         display: none;
@@ -43,13 +50,13 @@
         height: 100px;
     }
 
-     header .toggler{
-        position :absolute;
+     .hamburger-div .toggler{
+        position: absolute;
         height: 50px;
         width: 50px;
-        top:20px;
+        top: 20px;
         left: 20px;
-        z-index:100;
+        z-index:  2;
         cursor: pointer;
         opacity: 0;
     }
@@ -62,7 +69,7 @@
         position: absolute;
         top: 20px;;
         left:20px;
-        z-index:10;
+        z-index:1;
         width:60px;
         height: 60px;
         padding:1rem;
@@ -81,6 +88,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all 0.4s ease;
+
     }
 
     /* Hamburger lines - top and bottom */
@@ -88,7 +97,7 @@
     .hamburger-div .hamburger > div::after{
         content: '';
         position:absolute;
-        z-index: 100;
+        z-index: 1;
         top: -10px;
         width: 100%;
         height: 2px;
@@ -96,8 +105,27 @@
     }
 
     .hamburger-div .hamburger > div::after{
-
         top:10px;
 
 }
+
+/* Toggler animation */
+
+.hamburger-div .toggler:checked + .hamburger > div{
+    transform: rotate(135deg);
+}
+
+/* Turns Lines Into X */
+.hamburger-div .toggler:checked + .hamburger > div:before,
+.hamburger-div .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* Rotate On Hover When Checked */
+.hamburger-div .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+  }
+
+
 TODO: change the max-screen size to 560;
