@@ -10,8 +10,9 @@ header{
 }
 
 nav{
+    margin-top: 5%;
     display: flex;
-    line-height: 8rem;
+    /* line-height: 1rem; */
 }       
 
 nav .button{
