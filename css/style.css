@@ -11,11 +11,11 @@
     text-align: right;
     font-family: 'Rubik', sans-serif;
    
-    --main-green: #81B622;
-    --second-green: #3D550C;
-    --light-yellow: #fcffde;
+    --primery: #81B622;
+    --secendary: #3D550C;
+    --third-color: #fcffde;
     --header-height:20vh;
-    /* background-color: var(--main-green); */
+    /* background-color: var(--primery); */
     overflow: hidden;
     
     
@@ -23,9 +23,9 @@
 
 a{
     text-decoration: none;
-    color:var(--main-green)
+    color:var(--primery)
 }
-
+            
 ul{
  list-style: none;
 }

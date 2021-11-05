@@ -1,5 +1,5 @@
 header{
-    background-color: var(--light-yellow);
+    background-color: var(--third-color);
     height: 20vh;
     width:100vw;
     position:fixed;
@@ -30,7 +30,7 @@ header .phone-num{
 }
 
 .phone-num .phone-button{
-    background-color: var(--second-green);
+    background-color: var(--secendary);
     height:30%;
     margin-left: 10%;
     margin-top: 30%;
@@ -40,7 +40,7 @@ header .phone-num{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    color: var(--light-yellow);
+    color: var(--third-color);
     text-align: center;
     padding-top: 5%;
     TODO: to change the way i located the phone-number in the y-axis;
