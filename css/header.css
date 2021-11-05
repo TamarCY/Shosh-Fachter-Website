@@ -16,7 +16,7 @@ nav{
 }       
 
 nav .button{
-    /* TODO - find out how to give font weight of 350 */
+    TODO:find out how to give font weight of 350;
     font-weight: 300;
     padding:30px;
     font-size: 1.3rem;
@@ -28,6 +28,7 @@ header .logo img{
 
 header .phone-num{
     width:15%;
+    margin: 0;
 
     
 }
@@ -39,7 +40,7 @@ header .phone-num{
     margin-top: 30%;
 
     TODO: to change the way i located the phone-button in the y-axis;
-
+    TODO: to add padding to the phone num button so it will look good in the medium screen;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -51,8 +52,24 @@ header .phone-num{
 }
 
 @media only screen and (max-width:1000px){
+
     .phone-num {
         display:none;
     }
+    nav{
+        flex-direction: column;
+    }
+
+    nav a{
+        font-size: 1rem;
+
+    }
+
+    nav .button{
+        padding: 10px;
+        background-color: var(--third-color);
+    }
+
+    
 }
 TODO: change the max-screen size to 560;
