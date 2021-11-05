@@ -1,4 +1,4 @@
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1500px){
 
     .phone-num {
         display:none;
@@ -7,6 +7,7 @@
         flex-direction: column;
         width:100%;
         text-align: center;
+        position: relative;
     }
 
     nav a{
@@ -19,6 +20,18 @@
         background-color: var(--third-color);
     }
 
-    
+    /* nav::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:0px;
+        left:0px;
+        right: 0px;
+        bottom: 0px;
+    } */
+
+    .page-1::before{
+        display: none;
 }
 TODO: change the max-screen size to 560;
