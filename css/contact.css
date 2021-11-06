@@ -1,6 +1,6 @@
 
 
-.page-3{
+.page-4{
     display: flex;
     height: 80vh;
 }
@@ -30,7 +30,7 @@ form{
 
 
 
-.page-3 input {
+.page-4 input {
     border: none;
     border-bottom: 2px solid var(--temp-secendary);
     color: var(--temp-secendary);
@@ -41,22 +41,23 @@ form{
     margin-top: 30px;
   }
 
-.page-3 [type=button]{
+.page-4 [type=button]{
      border-top: 2px solid var(--temp-secendary);
      transition: all 1s ease-in-out;
      margin-top: 60px;
 
 }
-.page-3 [type=button]:hover{
+.page-4 [type=button]:hover{
      background-color:  var(--temp-secendary);
      color:white;
      cursor: pointer;
 }
 
-.page-3 ::placeholder {
+.page-4 ::placeholder {
     color: var(--temp-secendary);
 }
 
+TODO: to add phone num at the bottom of the page
 
 
  
