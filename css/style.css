@@ -57,8 +57,8 @@ ul{
 }
 
 .phone-btn{
-    height: 60px;
-    width:60px;
+    height: 63px;
+    width: 63px;
     position: fixed;
     top: 20px;
     left: 20px;
@@ -71,15 +71,18 @@ ul{
     z-index: 5;
 }
 
-.phone-btn a{
+.phone-btn i{
     color: white;
 
 }
+
 
 @media only screen and (max-width:750px){
     .phone-btn{
     top: 90vh;
     right: 20px;
+    height: 58px;
+    width: 58px;
     }
 
     .whatsapp{
