@@ -18,8 +18,9 @@
     --temp-third-color:#fcffde;
     --header-height:20vh;
     /* background-color: var(--primery); */
-    overflow: hidden;
-    
+    /* overflow: hidden; */
+    /* background-color: var(--third-color); */
+    TODO:if i didnt fixed the gap under the header i can un comment the bg color
     
 }
 
@@ -41,6 +42,7 @@ ul{
 }
 
 /* TODO:find a more elegant way to deal  with the fixed header */
+
 .header-fixer{
     height: var(--header-height);
 }

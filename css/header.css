@@ -7,8 +7,10 @@ header{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    z-index: 3;
     
-}
+}   
+TODO:to re-center the items in the header
 
 .toggler{
     display: none;

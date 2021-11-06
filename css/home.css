@@ -7,7 +7,7 @@
     /* opacity: 0.5; */
 }
 
-.page-1::before{
+/* .page-1::before{
     content: '';
     position:absolute;
     top: 0px;
@@ -16,7 +16,14 @@
     left: 0px;
     background: url('../assets/one-apple.jpg') no-repeat center center/cover;
     opacity: 0.5;
+} */
+
+.page-1{
+    background: url('../assets/one-apple.jpg') no-repeat center center/cover;
+    opacity: 0.5;
+    display: none;
 }
+
 
  .page-1 section{
     height: 80%;
@@ -28,6 +35,8 @@
     
     
 }
+TODO: change the header to logo or img;
+
 
 .profile-photo{
     border: var(--third-color) solid 10px;
@@ -67,7 +76,8 @@
         font-size: 20px;
     }
 
-    
+    .body{
+        background-color: var(--primery);
 
 }
 TODO:to change the font size acording to fluid typografy;
