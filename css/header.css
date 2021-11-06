@@ -5,12 +5,11 @@ header{
     position:fixed;
     top:0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row-reverse;
     z-index: 3;
     
 }   
-TODO:to re-center the items in the header
 
 .toggler{
     display: none;
@@ -19,13 +18,11 @@ TODO:to re-center the items in the header
 nav{
     margin-top: 5%;
     display: flex;
-    /* line-height: 1rem; */
 }       
 
 nav .button{
-    TODO:find out how to give font weight of 350;
     font-weight: 300;
-    padding:30px;
+    padding:40px;
     font-size: 1.3rem;
 }      
 
@@ -33,40 +30,13 @@ header .logo img{
     height:100%;
 }
 
-header .phone-num{
-    width:15%;
-    margin: 0;
 
-    
-}
 
-.phone-num .phone-button{
-    background-color: var(--primery);
-    height:30%;
-    margin-left: 10%;
-    margin-top: 30%;
 
-    TODO: to change the way i located the phone-button in the y-axis;
-    TODO: to add padding to the phone num button so it will look good in the medium screen;
-    TODO:to move the green button position to the left (somthing with flex);
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    color: var(--third-color);
-    text-align: center;
-    padding-top: 5%;
-    TODO: to change the way i located the phone-number in the y-axis;
-    transition: opacity 1s ease-in-out;
-}
-.phone-num .phone-button:hover{
-    opacity: 0.7;
-}
 
 .hamburger-div{
     display: none;
 }
 
 
-TODO:hover phone botton and header bottons animations;
 
-TODO:find where the f#@#@# the white line under the header is from and kill it;
