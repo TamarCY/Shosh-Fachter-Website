@@ -41,14 +41,14 @@ header .phone-num{
 }
 
 .phone-num .phone-button{
-    background-color: var(--secendary);
+    background-color: var(--primery);
     height:30%;
     margin-left: 10%;
     margin-top: 30%;
 
     TODO: to change the way i located the phone-button in the y-axis;
     TODO: to add padding to the phone num button so it will look good in the medium screen;
-    TODO:to move the green button position to the left (somthing with flex)
+    TODO:to move the green button position to the left (somthing with flex);
     justify-content: center;
     align-items: center;
     border-radius: 30px;

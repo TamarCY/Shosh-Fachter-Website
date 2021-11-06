@@ -5,28 +5,57 @@
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(7, 1fr);
         grid-column-gap: 10px;
-        grid-row-gap: 10px;
+        background-color: var(--temp-secendary);
+        color:white;
+        font-weight: 300;
+        font-size: 1.;
         }
         
-        .about-img { 
-            grid-area: 1 / 5 / 7 / 9;
-            background: url(/Shosh-Fachter-Website/assets/profile-img.jpeg) no-repeat center;
-        }
-        .about-header { grid-area: 1 / 1 / 2 / 5; }
-        .about-2nd-header { grid-area: 2 / 1 / 3 / 5;}
-        .about-text{ grid-area: 3 / 1 / 6 / 5; }
-        .about-links{
-            background-color: var(--third-color );
-             grid-area: 7 / 1 / 8 / 9;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-            }
-        .about-links i{
-            padding: 10px;
-            font-size: 40px;
-            color: var(--primery);
+    .about-img { 
+        grid-area: 1 / 5 / 7 / 9;
+        background: url(/Shosh-Fachter-Website/assets/profile-img.jpeg) no-repeat center;
+    }
+    .about-text{
+        padding: 30px;
+        line-height: 2rem;
+            grid-area: 1 / 1 / 7/ 5; 
         }
 
-        .a
+    .about-text h2{
+        margin-top: 80px;
+        margin-bottom: 30px;
+        color:white;
+        text-shadow: none;
+        font-weight: 400;
+        font-size: 2rem;
+        TODO:change the h2 font-family
+
+
+
     }
+    .about-text h3{
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size:1.5rem;
+
+    }
+    .about-links{
+        background-color: var(--third-color );
+            grid-area: 7 / 1 / 8 / 9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .about-links i{
+        padding: 10px;
+        font-size: 40px;
+        color: var(--primery);
+        transition: opacity 1s ease-in-out;
+
+    }
+
+    .about-links i:hover{
+        opacity: 0.7;
+    }
+
+  TODO:add animation for the img 
