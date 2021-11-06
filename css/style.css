@@ -46,3 +46,21 @@ ul{
 .header-fixer{
     height: var(--header-height);
 }
+
+.whatsapp{
+    height: 60px;
+    width:60px;
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+}
+
+.phone-btn{
+    height: 60px;
+    width:60px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: var(--primery);
+    border-radius: 50%;
+}
