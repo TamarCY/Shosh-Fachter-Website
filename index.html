@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../Shosh-Fachter-Website/css/header-mobile.css">
     <link rel="stylesheet" href="../Shosh-Fachter-Website/css/about.css">
     <link rel="stylesheet" href="../Shosh-Fachter-Website/css/about-mobile.css">
+    <link rel="stylesheet" href="../Shosh-Fachter-Website/css/contact.css">
 
 
 </head>
@@ -32,7 +33,7 @@
             <div class="button"><a href="#home">דף הבית</a></div>
             <div class="button"><a href="#about">אודות</a></div>
             <div class="button"><a href="#">מתכונים</a></div>
-            <div class="button"><a href="#">צור קשר</a></div>
+            <div class="button"><a href="#contact">צור קשר</a></div>
         </nav>
         <div class="logo">
             <img src="/Shosh-Fachter-Website/assets/logo.png" alt="shosh fachter logo">
@@ -69,6 +70,22 @@
             <i class="fab fa-youtube"><a href="https://www.youtube.com/channel/UCUd0Io0F4Te30M2p-FFO8UA/videos" target="_blank"></a></i>
         </div>
     </div>
+    <div  id="contact" class="header-fixer"></div>
+    <div class="page-3">
+        <div class="contact-img"></div>
+        <div class="contact-form">
+            <form>
+                <section>    
+                    <input type="text" id="name" name="name" placeholder="שם">
+                    <input type="tel" id="phone" name="phone" placeholder="טלפון" pattern="[0-9]{3}-[0-9]{7}">
+                    <input type="email" id="email" name="email" placeholder="מייל">
+                </section>
+                <input type="text" id="message" name="message" placeholder="הודעה">
+                <input type="button" id="send" value="שלח">
+            </form>
+        </div>
+    </div>
+    
   </div>
 </body>
 </html>

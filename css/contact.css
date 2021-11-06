@@ -1,0 +1,60 @@
+
+
+.page-3{
+    display: flex;
+    height: 80vh;
+}
+
+.contact-img{
+    height: 100%;
+    width:50%;
+    background: url(/Shosh-Fachter-Website/assets/fat-woman.jpg) no-repeat center center/cover;
+
+    
+}
+
+.contact-form{
+    height: 100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    margin-right: 30px;
+
+}
+
+
+
+.page-3 input {
+    border: none;
+    border-bottom: 2px solid var(--temp-secendary);
+    color: var(--temp-secendary);
+    background-color: white;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+.page-3 [type=button]{
+     border-top: 2px solid var(--temp-secendary);
+     transition: all 1s ease-in-out;
+     margin-top: 60px;
+
+}
+.page-3 [type=button]:hover{
+     background-color:  var(--temp-secendary);
+     color:white;
+     cursor: pointer;
+}
+
+.page-3 ::placeholder {
+    color: var(--temp-secendary);
+}
+
+ 

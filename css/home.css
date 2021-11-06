@@ -1,22 +1,10 @@
-.page-1{
-   
-    /* background-color: var(--primery); */
+.page-1{   
     height: 100vh;
     position: relative;
-    /* background: url('../assets/one-apple.jpg') no-repeat center center/cover; */
-    /* opacity: 0.5; */
+    
 }
 
-/* .page-1::before{
-    content: '';
-    position:absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background: url('../assets/one-apple.jpg') no-repeat center center/cover;
-    opacity: 0.5;
-} */
+
 
 .page-1{
     background: url('../assets/one-apple.jpg') no-repeat center center/cover;
@@ -37,16 +25,7 @@
 TODO: change the header to logo or img;
 
 
-.profile-photo{
-    border: var(--third-color) solid 10px;
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    background: url(/Shosh-Fachter-Website/assets/dana.jpeg) no-repeat center center/cover;
-    opacity: 0.;
-    display: none;
-    
-}
+
 
 .page-1 h1{
     font-size: 5vw;
