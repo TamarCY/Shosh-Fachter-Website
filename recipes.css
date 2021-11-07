@@ -24,29 +24,29 @@
 }
 
     .div1 { grid-area: 1 / 1 / 3 / 4; 
-        background: url(/Shosh-Fachter-Website/assets/פריכית.jpeg)no-repeat center center/cover;
+        background: url(./assets/פריכית.jpeg)no-repeat center center/cover;
     }
     .div2 { grid-area: 1 / 4 / 4 / 7;
-        background: url(/Shosh-Fachter-Website/assets/alpha.jpeg) no-repeat center center/cover;
+        background: url(./alpha.jpeg) no-repeat center center/cover;
     }
     .div3 { grid-area: 3 / 1 / 7 / 4; 
-        background: url(/Shosh-Fachter-Website/assets/brownis.jpeg) no-repeat center center/cover;
+        background: url(./brownis.jpeg) no-repeat center center/cover;
     }
     .div4 { grid-area: 4 / 4 / 8 / 9;
-        background: url(/Shosh-Fachter-Website/assets/capcakes.jpeg) no-repeat center center/cover;
+        background: url(./capcakes.jpeg) no-repeat center center/cover;
     }
     .div5 { grid-area: 7 / 1 / 11 / 4;
-        background: url(/Shosh-Fachter-Website/assets/magnum.jpeg) no-repeat center center/cover;
+        background: url(./magnum.jpeg) no-repeat center center/cover;
     }
     .div6 { grid-area: 1 / 7 / 4 / 11;
-        background: url(/Shosh-Fachter-Website/assets/pie.jpeg) no-repeat center center/cover;
+        background: url(./pie.jpeg) no-repeat center center/cover;
     }
     .div7 { grid-area: 4 / 9 / 8 / 11;
-        background: url(/Shosh-Fachter-Website/assets/cookies.jpeg) no-repeat center center/cover;
+        background: url(./cookies.jpeg) no-repeat center center/cover;
     }
     .div8 { grid-area: 8 / 4 / 11 / 8;
-        background: url(/Shosh-Fachter-Website/assets/mafins.jpeg) no-repeat center center/cover;
+        background: url(./mafins.jpeg) no-repeat center center/cover;
     }
     .div9 { grid-area: 8 / 8 / 11 / 11;
-        background: url(/Shosh-Fachter-Website/assets/fogalah.jpeg) no-repeat center center/cover;
+        background: url(./fogalah.jpeg) no-repeat center center/cover;
     }

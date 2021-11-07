@@ -13,7 +13,7 @@
         
     .about-img { 
         grid-area: 1 / 5 / 7 / 9;
-        background: url(/Shosh-Fachter-Website/assets/profile-img.jpeg) no-repeat center;
+        background: url(./profile-img.jpeg) no-repeat center;
     }
     .about-text{
         padding: 30px;
