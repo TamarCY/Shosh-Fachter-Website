@@ -24,7 +24,7 @@
 }
 
     .div1 { grid-area: 1 / 1 / 3 / 4; 
-        background: url(./assets/פריכית.jpeg)no-repeat center center/cover;
+        background: url(./פריכית.jpeg)no-repeat center center/cover;
     }
     .div2 { grid-area: 1 / 4 / 4 / 7;
         background: url(./alpha.jpeg) no-repeat center center/cover;
